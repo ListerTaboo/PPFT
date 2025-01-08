@@ -1,0 +1,86 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.order-summary {
+    background-color: white;
+    padding:20px;
+    border-radius: 20px;
+    box-shadow: 0 5px 100px rgba(5, 1, 1, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+}
+
+.order-summary h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.order-summary p {
+    font-size: 10px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+.plan-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.plan {
+    display: flex;
+    align-items: center;
+}
+
+.plan .icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.plan .plan-name {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.plan .price {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.change-link {
+    font-size: 14px;
+    color: #4539FF;
+    text-decoration: none;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proceed-btn {
+    background-color: #4539FF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cancel-link {
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+}
